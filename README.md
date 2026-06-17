@@ -1,9 +1,9 @@
 # Linux Infra Intern Assignment
 
-#3rd Milestone
+#4th Milestone
 
 ##Objective
-build up the provision.sh for automation and set up maintenance scripts, service and timer.
+build validation script that validates whatever provision has done.
 
 ##Environment
 
@@ -18,12 +18,14 @@ ubuntu 24.04
 -maintenance.sh
 -infra-maintenance.service
 -infra-maintenance.timer
+-validaton.sh
 ##Repository Structure
 -linux-infra-intern-assignment
 |-README.md
 |-scripts/
   |-provision.sh
   |-maintenance.sh
+  |-validate.sh
 |-systemd/
   |-infra-demo.service
   |-infra-maintenance.service
@@ -45,3 +47,5 @@ ubuntu 24.04
 ufw      |Firewall Management|
 
 Firewall hardening covered, ssh review covered and permissions secured in provision.sh
+vaalidate covers core checks, reboot survival tested; troubleshooting notes added.
+
