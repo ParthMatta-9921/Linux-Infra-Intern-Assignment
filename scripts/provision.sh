@@ -184,6 +184,8 @@ ufw status | grep -q "22/tcp" || ufw allow 22/tcp # getting the status of the fi
 ufw status | grep -q "${PORT}/tcp" || ufw allow "${PORT}/tcp" # same as above
 ufw status | grep -q "active" || ufw --force enable #starting the firewall and avoid breaking ssh on rerun
 
+ufw --force enable
+echo "[INFO]: firewall is active and configured."
 
 ##Maintenance timer
 echo "[INFO]: Installing maintenance timer..."
