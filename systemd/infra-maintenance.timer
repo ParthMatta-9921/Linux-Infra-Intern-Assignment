@@ -1,0 +1,10 @@
+[Unit]
+Description= Run Infra Demo Maintenance task hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+Unit=infra-maintenance.service
+
+[Install]
+WantedBy=timers.target

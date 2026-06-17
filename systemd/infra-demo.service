@@ -6,7 +6,7 @@ After=network.target
 
 Type=simple
 EnvironmentFile=/etc/infra-demo/infra-demo.env
-ExecStart=/usr/bin/python3 /home/pat-9921/linux-infra-intern-assignment/app/app.py
+ExecStart=/usr/bin/python3 /opt/infra-demo/app.py
 Restart=always
 
 
