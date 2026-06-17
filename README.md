@@ -41,7 +41,7 @@ internet connectivity for package installation
 - after reboot, run `sudo <repo>/scripts/validate.sh`
 
 
-## demo link: 
+## demo link: https://drive.google.com/file/d/1QwSx_MAApmci8CaYA9e-lIJhUpa7PRJM/view?usp=sharing
 ##Developed Components
 
 -Provision.sh
